@@ -4,28 +4,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>問題1 | Quiz</title>
   </head>
   <body>
-    <h1>Quiz</h1>
-    <h2>問題3</h2>
-    <p>やっちんが会社に入社した1977年のニュースで一番のお気に入りは？</p>
-    <h3>選択肢</h3>
-    <ol>
-      <li>森本智子さんの誕生</li>
-      <li>長嶋巨人が優勝して、王さんが最優秀選手に</li>
-      <li>カラオケブーム到来</li>
-      <li>輪島が全勝優勝</li>
-    </ol>
+    <div id="main">
+      <h1>自己紹介Quiz</h1>
 
-    <h2>答え</h2>
-    <p>3.カラオケブーム到来</p>
-    <hr />
-    <p>
-      カラオケはこの頃から一般的になりだしました<br />
-      会社に入社した当時もアカペラでしたけどね<br />
-      他の答えも全て1977年の出来事です。
-    </p>
-    <a href="./index.html">戻る</a>
+      <div class="section">
+        <h2>問題3</h2>
+        <p>やっちんが会社に入社した1977年のニュースで一番のお気に入りは？</p>
+
+        <h3>選択肢</h3>
+        <ol class="answers">
+          <li>森本智子さんの誕生</li>
+          <li>長嶋巨人が優勝して、王さんが最優秀選手に</li>
+          <li>カラオケブーム到来</li>
+          <li>輪島が全勝優勝</li>
+        </ol>
+      </div>
+
+      <div id="section-correct-answer" class="section">
+        <h2>答え</h2>
+        <p>
+          <span id="correct-answer">3.カラオケブーム到来</span> <br />
+
+          カラオケはこの頃から一般的になりだしました<br />
+          会社に入社した当時もアカペラでしたけどね<br />
+          他の答えも全て1977年の出来事です。
+        </p>
+      </div>
+
+      <div class="section">
+        <a href="./index.html">戻る</a>
+      </div>
+    </div>
   </body>
 </html>
