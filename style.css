@@ -34,19 +34,18 @@ ol.answers li:hover {
   cursor: pointer;
 }
 
-#section-correct-answer {
-  display: block;
+div#section-correct-answer {
+  display: none;
 }
 
-#correct-answer {
+span#correct-answer {
   font-weight: bold;
-  color: #f05959;
 }
 
-#main {
+div#main {
   padding: 0 1.5em;
 }
 
-.section {
+div.section {
   margin-top: 2em;
 }
